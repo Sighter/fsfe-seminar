@@ -1,4 +1,4 @@
-Einordnung
+Einordnung [Sascha]
 ==========
 
 * International/National
@@ -8,18 +8,18 @@ Einordnung
 Konstitutioneller Aufbau
 ========================
 
-* Aufbau des Vereins (Hierarchie)
-* Fellowships
-* Finanzierung
+* Aufbau des Vereins (Hierarchie) [Paul] Grafik vorbereiten!
+* Fellowships [Sascha]
+* Finanzierung [Paul]
 
 Inhalt
 ======
 
 * Kampagnen (Secure Boot, Free Android, DRM.info, ....) *Norbert Newsletter checken*
-* Abgeschlossene/Erfolgreiche Kampagnen
-* Self Conception
-* Was ist Free Software/Libre Software vs. Open Source
-* Lizensen Überblick
+* Abgeschlossene/Erfolgreiche Kampagnen [Norbert]
+* Self Conception [Jeder]
+* Was ist Free Software/Libre Software vs. Open Source [Sascha]
+* Lizensen Überblick [Paul]
 
 Diskussion
 ==========
@@ -38,3 +38,12 @@ STICKER!!!!!!
 
 * Begriffe checken die problematisch sind
 * Diskussionsfragen ausformulieren
+
+* Für alle! Sticker bescheid sagen!
+
+Trivia
+======
+Font: Roboto
+Format: Inkscape Svg
+
+Plugin: Jessyinc
