@@ -27,4 +27,5 @@
 
 # Fragen
 * Wieviel Kontrolle sollte jeder über die Technik haben, die er selbst benutzt? (Vefahrenswissensnotwendigkeit)
-* 
+* Lässt sich das Free Software Modell in ein kapitalistisches Wirtschaftssystem integrieren?
+* Ist die Free Software Bewegung kurroptionsunanfällig?
