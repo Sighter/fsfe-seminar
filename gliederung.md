@@ -8,8 +8,8 @@ Einordnung [Sascha]
 Konstitutioneller Aufbau
 ========================
 
-* Aufbau des Vereins (Hierarchie) [Paul] Grafik vorbereiten!
-* Fellowships [Sascha]
+* [Paul] Grafik vorbereiten!
+* Fellowships [Sascha] Konzept erklären
 * Finanzierung [Paul]
 
 Inhalt
@@ -20,6 +20,9 @@ Inhalt
 * Self Conception [Jeder]
 * Was ist Free Software/Libre Software vs. Open Source [Sascha]
 * Lizensen Überblick [Paul]
+
+* Pressewahrnehmung allgemein
+  * Entwicklung nach 2012 (Nach Snowden) bzgl Finanzen, Mitgliederzulauf, Medienpräsens
 
 Diskussion
 ==========
