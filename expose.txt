@@ -1,0 +1,9 @@
+Nachdem 1985 die Free Software Foundation (FSF) von Richard Stallman zur
+Förderung von freier Software und der Manifestation der damit verbundenen
+"radikalen" Grundhaltung zu freier Software gegründet wurde, kam es 2001 auch
+zur Gründung der Free Software Foundation Europe (FSFE) als unabhängige,
+europäische Schwester-Organisation der FSF. Die Leitidee von "freier Software"
+wird im Referat zunächst klar definiert und mit diesem Wissen die Ziele und
+Arbeit der FSFE erläutert. Dies soll im weiteren Verlauf den Brückenschlag zu
+abstrakten Themen wie u.a. "Kontrolle über Technik" und "Technik und Vertrauen"
+liefern.
