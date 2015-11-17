@@ -35,15 +35,18 @@
 \usepackage[utf8]{inputenc}
 \usepackage{epigraph}
 \usepackage{setspace}
+\usepackage[textwidth=3cm, shadow]{todonotes}
+\usepackage{mdwlist}
+\usepackage{hyperref}
 
 \onehalfspacing
 \begin{document}
 
 
-
 \begin{titlepage}
 
-\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the 
+%horizontal lines, change thickness here
 
 \center % Center everything on the page
 
@@ -53,14 +56,16 @@
 
 \textsc{\LARGE Universität Leipzig}\\[1.5cm] % Name of your university/college
 \textsc{\Large Hausarbeit}\\[0.5cm] % Major heading such as course name
-\textsc{\large zum Seminarvortrag "Free Software Foundation Europe"}\\[0.5cm] % Minor heading such as course title
+\textsc{\large zum Seminarvortrag "Free Software Foundation Europe"}\\[0.5cm] % 
+% Minor heading such as course title
 
 %----------------------------------------------------------------------------------------
 %	TITLE SECTION
 %----------------------------------------------------------------------------------------
 
 \HRule \\[0.4cm]
-{ \huge \bfseries Free Software Foundation Europe und Lobbying}\\[0.4cm] % Title of your document
+{ \LARGE \bfseries Free Software Foundation Europe und Lobbying}\\[0.4cm]
+%Title of your document
 \HRule \\[1.5cm]
 
 %----------------------------------------------------------------------------------------
@@ -81,7 +86,8 @@ Prof. Dr. H.-G. \textsc{Gräbe} % Supervisor's Name
 \end{flushright}
 \end{minipage}\\[4cm]
 
-% If you don't want a supervisor, uncomment the two lines below and remove the section above
+% If you don't want a supervisor, uncomment the two lines below and remove the 
+%section above
 %\Large \emph{Author:}\\
 %John \textsc{Smith}\\[3cm] % Your name
 
@@ -89,13 +95,22 @@ Prof. Dr. H.-G. \textsc{Gräbe} % Supervisor's Name
 %	DATE SECTION
 %----------------------------------------------------------------------------------------
 
-{\large \today}\\[3cm] % Date, change the \today to a set date if you want to be precise
+{\large \today}\\[3cm] % Date, change the \today to a set date if you want to 
+% be 
+% precise
+\newpage
+''Sharing is good, and with digital technology, sharing is easy.``
+
+Richard Stallman
+
+
 
 %----------------------------------------------------------------------------------------
 %	LOGO SECTION
 %----------------------------------------------------------------------------------------
 
-%\includegraphics{Logo}\\[1cm] % Include a department/university logo - this will require the graphicx package
+%\includegraphics{Logo}\\[1cm] % Include a department/university logo - this 
+% will require the graphicx package
 
 %----------------------------------------------------------------------------------------
 
@@ -103,72 +118,177 @@ Prof. Dr. H.-G. \textsc{Gräbe} % Supervisor's Name
 
 \end{titlepage}
 
+\tableofcontents
+\newpage
+
 \section{Einleitung}
 \epigraph{We believe in cooperation and transparency.}{FSFE}
-Die öffentlichen Worte der Free Software Foundation Europe (FSFE) sind deutlich. Es geht
-um das Verwirklichen ihrer Kernziele mit Hilfe eines transparenten Aktionsmusters.
-Dieses Statement überrascht kaum, da sich die FSFE die Erhaltung der Vision von ``Free Software'' zum Ziel gemacht hat, dessen Definition gerade die Gedanken ``Transparenz'' und ``Korporation'' als absolute Kernfaktoren enthält. Es ergibt sich somit direkt folgend die Forderung, die Folgen der Definition des Begriffes "Free Software" konsistent in ihre Struktur und Organisation zu übertragen.
+Die öffentlichen Worte der Free Software Foundation Europe (FSFE) sind deutlich. 
+Es geht
+um das Verwirklichen ihrer Kernziele mit Hilfe eines transparenten 
+Aktionsmusters.
+Dieses Statement überrascht kaum, da sich die FSFE die Erhaltung der Vision von 
+``Free Software'' zum Ziel gemacht hat, dessen Definition gerade die Gedanken 
+``Transparenz'' und ``Korporation'' als absolute Kernfaktoren enthält. Es ergibt 
+sich somit direkt folgend die Forderung, die Folgen der Definition des Begriffes 
+"Free Software" konsistent in ihre Struktur und Organisation zu übertragen.
 
 Die Frage der Finanzierung der FSFE und deren Arbeit in diversen
-Kampagnen bildet nun das Gerüst für einen intuitiven Lobbyismusvorwurf. Dieser muss klar ausgeführt werden und mit Hilfe
+Kampagnen bildet nun das Gerüst für einen intuitiven Lobbyismusvorwurf. Dieser 
+muss klar ausgeführt werden und mit Hilfe
 verschiedener Werke auf die ausgiebige Reichweite und Komplexität
 des Begriffs angewendet werden.
 
-Diese Arbeit schickt sich an die Gestalt und Struktur der Free Software Foundation Europe zu erläutern, den eben genannten Vorwurf zu spezifizieren und theoretisch zu behandeln inwiefern und in welchen Formen die FSFE Lobbying betreibt. Ergänzend soll ein Vergleich gegenüber anderen Lobbyismusstrukturen,
-wie die der Pharmaindustrie geführt werden, um auf die spezielle Verbindung zwischen dem Thema der FSFE und dem Lobbyismus aufmerksam zu machen.
-
+Diese Arbeit schickt sich an die Gestalt und Struktur der Free Software 
+Foundation Europe zu erläutern, den eben genannten Vorwurf zu spezifizieren und 
+theoretisch zu behandeln inwiefern und in welchen Formen die FSFE Lobbying 
+betreibt. Ergänzend soll ein Vergleich gegenüber anderen Lobbyismusstrukturen,
+wie die der Pharmaindustrie geführt werden, um auf die spezielle Verbindung 
+zwischen dem Thema der FSFE und dem Lobbyismus aufmerksam zu machen.
 \newpage
-\section{Free Software Foundation Europe}
-\epigraph{Free Software Foundation Europe is a charity that empowers users to control technology.}{FSFE}
-Seit ihrer Gründung am 10. März 2001 hat die FSFE einen Langen Weg der Vertretung Freier Software bestritten. Nach Gerog Greve, Karsten Gerloff ist Matthias Kirschner nunmehr der bereits 3. Präsident der FSFE.
 
-\begin{itemize}
-\setlength\itemsep{0em}
-\item Einsteigen über George Greve Interview, Kampf gegen die Bedrohungen für freie Software, klare Ziele
-\item Self Conception (Zitat von Website, stichworte hervorheben) (Norbert)
-\item WTF! Free Software - Definition (Norbert)
-\item FS vs. Open Source (Sascha)
-\item Lizensen (mindmap mit zusammenhängen) (Paul)
-\item Kampagnen (Logos) n viele (Norbert)
-\item Aufbau des Vereins (Hierarchie) (Paul)
-\item Fellowships (Sascha)
-\item Finanzierung I (Einnahmen Spenden) (Paul)
-\item Finanzierung II (Einnahmen nach Firmen) (Paul)
-\item welchen Einfluss hat die FSFE Überhaupt?
-\item welche Unternehmen haben wie Einfluss auf die FSFE?
-\end{itemize}
+\section{Free Software Foundation Europe}
+\epigraph{Free Software Foundation Europe is a charity that empowers
+users to control technology.}{FSFE}
+Seit ihrer Gründung am 10. März 2001 hat die FSFE einen Langen Weg der 
+Vertretung Freier Software bestritten. Es handelt sich bei der FSFE 
+um eine gemeinnützige regierungsunabhängige Organisation (NGO), welche sich
+auf der deutschen Rechtsform des e.V. gründet. Nach Georg 
+Greve und Karsten Gerloff ist Matthias Kirschner nunmehr der bereits 3. 
+Präsident der FSFE. Schon der Gründer George Greves formulierte die Ziele der 
+FSFE sehr deutlich indem er verschiedene Bedrohungen für Freie Software 
+erkannte und die FSFE als Institution - um diesen Bedrohungen gegenüber zu 
+stehen - ins Leben rief.\cite{PLGreveInterView} \todo{Mehr Bedrohungen 
+erläutern}Er führt Softwarepatente und Richtlinien wie z.B. die EUCD, IPRED und 
+\todo{Richtlinien anschauen}WIPO als Beispiele für diese Gefahren auf.
+
+\subsection{Freie Software}
+Diesem Bestreben liegt natürlich eine klar definierte Auffassung des Terminus 
+"Freie Software" zu Grunde. Dabei legt die FSFE folgende vier
+Rechte gegenüber der Nutzung von Freier Software zu Grunde. Zum Einen
+wird die Freiheit eingeräumt, ein Programm für alle erdenklichen Zwecke zu 
+nutzen, was z.B. die Einschränkung von Nutzungsräumen verbietet oder
+auch sogar konträr dagegen die Nutzung der Software im kommerziellen Rahmen 
+durchaus
+erlaubt. Weiterhin muss es möglich sein die Struktur und Funktionsweise des 
+Programms studieren und sie entsprechend
+anpassen zu können, was die Notwendigkeit für das Offenlegen des Quellcodes 
+liefert. Außerdem wird argumentiert, dass es möglich ist, Software mit einem 
+nahzu gegen Null gehenden Aufwand zu kopieren, woraus das Recht abgeleitet wird
+die Software weiter geben zu dürfen. Den
+vierten und letzten Pfeiler stellt die Freiheit, des betrachtete Programm
+jederzeit verbessern beziehungsweise verändern zu können, wobei auch eine 
+Veröffentlichung dieser Änderung möglich sein muss.\cite{FsfeFs}
+
+Freie Software wird oft in Assoziation zu Open Source Software gesetzt. Die
+FSFE weißt hier eindrücklich darauf hin, dass dieser Begriff bereits aufgeweicht
+ist und auch Produkte damit bezeichnet werden, welche z.B nur sehr beschränkten
+Zugriff zu Teilen des Quellcodes zulassen.
+
+\subsection{Aufbau des Vereins}
+Um nun die Handlungsgrundlagen der FSFE weiter zu verstehen, ist es nötig
+die Struktur der Organisation zu analysieren, da die Hierarchie den 
+Entscheidungsprozess natürlicherweise beeinflusst. \todo{Schluss: fehlende 
+Transparenz ohne persönliche Beziehungen}Wie bereits erwähnt handelt es sich bei
+der FSFE um einen gemeinnützigen Verein welcher einen Vereinsvorsitzenden 
+(Präsident) benötigt. Dieses Amt hat gerade Matthias Kirschner inne, welcher im 
+Gegensatz zu George Greve einen eher nicht technischen Hintergrund aufweist.
+Kirschner's Hauptziel ist eindeutig die Kontrollmöglichkeit von Technologie 
+durch ihre Nutzer. Als Weg dahin sieht er unter anderem die Aufklärungsarbeit 
+der FSFE durch Werbekampagnen und individuelle
+Beratung.\cite{TAZKirschnerInterView} \cite{YTKirschnerInterView}
+
+Kirschner ist einer von derzeit 8 Vollzeitangestellten.\cite{FsfeTeam} Den
+Rest des Vereins bilden ehrenamtliche Mitarbeiter,\todo{Themenbreiche 
+erläutern} welche alle feste 
+Themenbereiche besitzen. Viele \todo{fraglich} 
+der gelisteten Mitglieder weißen 
+einen 
+Hintergrund auf in welchem sie schon mit zu Freier Software äquivalenten Themen 
+in Berührung gekommen sind. So war Jonas Öberg zum Beispiel Fellow für die
+Shuttleworth Foundation. Weiterhin gibt es auch Mitbeteiligte wie Fernanda 
+Weiden, welche in Firmen wie Facebook arbeiten.\cite{FsfeTeam}
+
+Nach Aussagen von George Greve reicht gerade die Anzahl der voll bezahlten 
+Mitglieder nicht aus, um genügend politische Arbeit auf Landesebene zu 
+betreiben. Hier sollte es für jedes Land mindestens eine voll honorierte Person
+geben was aber zumindest im Jahr 2004 noch das Budget 
+sprengte.\cite{PLGreveInterView}
+
+Greve, Kirschner und Öberg sind Teil des Exekutivrates, welcher prinzipiell
+die alleinige Entscheidungsgewalt besitzt. Greve mahnte hier allerdings an, dass
+es einen grundsätzlich demokratischen Entscheidungsfindungsprozess gibt und 
+noch nie jemand aus diesem ausgeschlossen wurde.
+
+\subsubsection{Fellowships}
+Ein weiteres Standbein der FSFE bildet das Fellowship-Programm womit
+grundsätzlich Jedem ermöglicht wird innerhalb der FSFE Einfluss zu nehmen.
+Voraussetzung hierfür ist - wie in einem gemeinnützigen Verein üblich - das 
+Entrichten eines Mitgliedsbeitrags, der variabel
+wählbar ist. Hierdurch ist es möglich entweder reines Fördermitglied zu werden
+oder, durch die Mitgliedschaft berechtigt, Zugang zu den FSFE-internen Systemen 
+und Arbeiten anderer Fellowship-Teilnehmer zu bekommen, oder eine lokale Gruppe
+zu gründen welche die FSFE vertritt. Der allgemeine Nutzen des 
+Fellowship-Programmes bestehen für die FSFE darin, das Thema ''Freie Software`` 
+in 
+den Köpfen auch der Menschen zu halten, welche nicht auf täglicher Basis mit 
+diesem Gebiet direkt konfrontiert werden. Dabei wird aber darauf hingewiesen, 
+das sehr wohl viele Leute Freie Software ohne das Bewusstsein darüber einsetzen.
+
+
+\todo[inline]{Über Lizenzthematik nachdenken}
 
 \section{Lobbyismusbegriff}
-
 \subsection{Begriff}
+\begin{itemize*}
+    \item Begriff erläutern durch \cite{LeifSpeth200312}
+    \item Anatomie erläutern
+\end{itemize*}
 
-\paragraph{Notizen}
-\begin{itemize}
-\item verschiedene Begriffe erläutern
-\item Vergleichsprinzip erläutern
-\item Lobbyvorwurf durch Anwendung der Definition spezifizieren
-\end{itemize}
+\section{Die FSFE als Lobbyorganisation}
+\begin{itemize*}
+    \item Lobbydef aufFSFE  anwenden und dabei FSFE Weiter erklären
+    \item Aussagen von Greve Benutzen \cite{PLGreveInterView}
+\end{itemize*}
+
+\subsection{Wirken der FSFE - Kampagnen}
+Die Arbeit der FSFE findet unter anderem in unterschiedlichen Kampagnen statt, 
+welche die Grundlage für die meinungsbildende Wirkung der Organisation stellt.
+\begin{itemize*}
+    \item Secureboot anschauen -- Einflusssicherungsversuch von anderen
+    Unternehmen
+\end{itemize*}
+
+\begin{itemize*}
+\item Finanzierung I
+\item Finanzierung II
+\item welcher Einfluss ergibt sich dadurch
+\item welche Unternehmen haben wie Einfluss auf die FSFE?
+\end{itemize*}
 
 \section{Unterschied zu anderen Lobbyingarten}
-
-\paragraph{Notizen}
-\begin{itemize}
-\item Pharmalobby
+\begin{itemize*}
+\item Pharmalobby \cite{BeckLobbyGesundwe}
 \item Agrar-Lobbying
-\end{itemize}
+\item IT-Lobby
+\item struktureller Vergleich
+\item finanzieller Vergleich
+\item regionaler Vergleich (Weltweit, Europa, Landesebene)
+\item Transparenz, Transparenz, Transparenz!!!
+\end{itemize*}
 
-\section{Unterschied zu anderen Lobbyingarten}
-
-\paragraph{Notizen}
-\begin{itemize}
+\section{Schluss}
+\begin{itemize*}
 \item Lobbying als natürlicher Vorgang (Eigene These)
-\end{itemize}
-
-\cite{LeifSpeth200312}
-
+\item Klare Unterschiede Intensität
+\end{itemize*}
 
 \newpage
 \bibliography{refs}
-\bibliographystyle{ieeetr}
+\bibliographystyle{IEEEtran}
+\todo[inline]{Bibtexvorlage der Uni benutzen}
+\todo[inline]{Unterlagen zuhause checken}
+
+\listoftodos
 
 \end{document}

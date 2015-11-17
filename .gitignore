@@ -4,4 +4,8 @@
 *.log
 *.pdf
 *.gz
-
+*.out
+*.tdo
+*.bak
+*.toc
+*.swp
